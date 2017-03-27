@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1.serif {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+input[type="text"] {
+   display: block;
+  margin: auto;
+}
+ input[type="submit"] {
+   display: block;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+}
+    </style>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- custom JS -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <!--  <h1 class="serif" >Type in a location, get the weather!</h1>-->
+      <!--  <form method="post" action="/result">-->
+      <!--<h3>Where do you wanna know the weather?</h3> <input type="text" value="response">-->
+
+      <form method="post" action="/result">
+        <h1 class="serif" >Type in a location, get the weather!</h1> 
+        <input type="text" name="response">
+      <input type="submit" value="Submit"> 
+      </form>
+    </div>
+  </body>
+</html>
